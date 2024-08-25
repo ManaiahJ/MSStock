@@ -7,14 +7,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                echo 'Checking out code from repository...'
-                // Checkout the code from Git repository
-                checkout scm
-            }
-        }
-
         stage('Build') {
             steps {
                 echo 'Building the project...'
