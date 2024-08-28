@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repository.git'
+                git https://github.com/ManaiahJ/MSStock.git
             }
         }
         stage('Build') {
